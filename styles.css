@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .navigation{
@@ -39,9 +40,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;     
 }
 
 .banner h1{
@@ -63,3 +62,27 @@
     transform: translateY(200px);
 }
 
+.speaker{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.speakerbox{
+    display: grid;
+    grid-template-columns: 643.5px 643.5px;
+}
+
+.indibox{
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px; 
+}
+
+main section div div p{
+    padding: 5px;
+}
