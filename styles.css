@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    color: #0D1B2A;
 }
 
 .navigation{
@@ -28,6 +27,14 @@
     padding: 10px 30px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+#white{
+    color: white;
+}
+
+body{
+    color: #0D1B2A;
 }
 
 .banner{
@@ -117,7 +124,6 @@ main section div div p{
     margin-top: 48px;
 }
 
-
 .pricebox-c{
     display: inline-block;
     text-align: left;
@@ -181,4 +187,86 @@ main section div div p{
 .down{
     line-height: 2;
     padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 60px 80px 60px;
+}
+
+.formbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    border: 1px solid #0D1B2A;
+    padding: 50px 200px 50px 200px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.formbox  div label{
+    color: white;
+    font-weight: 450;
+}
+
+.formbox input{
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ticket{
+
+}
+
+.ticketbox{
+    background-color: white;
+}
+
+.ticket{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.ticket-c{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #888888;
+    hight: 40px;
+    width: 267px;
+    box-sizing: border-box;
+    list-style-position: inside;
+    padding: 20px;
+    border-radius: 12px;;
+}
+
+.ticket-s{
+    display: flex;
+    gap: 20px;
+    background-color: #0D1B2A;
+    border: 1px solid #888888;
+    hight: 40px;
+    width: 267px;
+    box-sizing: border-box;
+    list-style-position: inside;
+    padding: 20px;
+    text-align: left;
+    border-radius: 12px
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
 }
